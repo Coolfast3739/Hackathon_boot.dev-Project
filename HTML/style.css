@@ -1,9 +1,42 @@
 body {
     background-color: yellow;
+    font: 16pxArial, sans-serif;
 }
 h1 {
     color: rgb(0, 0, 0);
+    font:  36px Arial, sans-serif;
+
 }
 p {
     color: rgb(0, 0, 0);
+    font: 16px Arial, sans-serif;
+    font-size: larger
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.nav-button {
+    padding: 10px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    background-color: #0071ea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #0056b3;
 }
